@@ -11,17 +11,15 @@ body {
 .navbar {
   width: 100%;
   height: 4.5rem;
-  background-color: green;
+  background-color: rgb(56, 56, 56);
   border-radius: 0 0 25px 25px;
-  color: white;
+  color: rgb(210, 210, 210);
   font-size: 1.5rem;
 
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 1fr;
-  /* gap: ; */
   align-items: center;
-  /* justify-content: space-between; */
   padding: 0 2rem;
 }
 .img-logo {
@@ -40,7 +38,7 @@ body {
   transition: all 0.3s;
 }
 .navbar .menu-list .menu-item:hover {
-  background-color: blue;
+  background-color: rgb(10, 10, 10);
   letter-spacing: 0.1rem;
 }
 .navbar .menu-list .menu-item a {
